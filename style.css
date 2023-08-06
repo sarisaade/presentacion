@@ -1,0 +1,70 @@
+.card {
+    background-color:pink;
+    border: 1px solid;
+    align-items: justify flex-start;
+    border-radius: 1em;
+    
+}
+.title {
+    color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.card-text {
+    font-size: medium;
+    font-family:cursive;
+    font-style: italic, bold;
+    text-align: center;
+
+}
+.img {
+    border: 2px, groove,gray;
+    display: inline block;
+    text-align: center;
+    border-radius: 2em;
+    
+    
+}
+.img:hover {
+    filter: grayscale();
+}
+.card-text:hover {
+    zoom:150%;
+}
+
+.title {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+.boton {
+    
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+
+    display:inline-block;
+    margin: 1px;
+  
+  
+    background-color:pink;
+    
+    border-color: white;
+    
+    text-decoration-color: gray;
+    text-align:top;
+    text-size-adjust: auto;
+    border-radius: 80px;
+    padding: auto;
+    cursor: grab;
+    
+  
+   
+   
+}
+.boton:hover {
+    background-color: deeppink;
+    zoom:120%;
+}
