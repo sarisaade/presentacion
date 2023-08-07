@@ -11,6 +11,9 @@
   font-family:fantasy;
   font-style: italic;
 }
+.title:hover {
+    zoom:150%;
+}
 .card-text {
     font-size: medium;
     font-family:cursive;
